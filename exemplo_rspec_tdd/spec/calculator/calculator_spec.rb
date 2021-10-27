@@ -3,6 +3,7 @@ require 'calculator'
 describe Calculator do
 
 	# change of nomenclature
+	# explicit subject
 	# subject(:calc) { describe_class.new() } 
 
 	context "#sum" do
