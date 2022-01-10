@@ -1,4 +1,4 @@
-describe "Equality" do
+describe "Igualdade" do
     
 	it '#equal - object' do
 		firstObject = "Ruby"
@@ -10,8 +10,8 @@ describe "Equality" do
 	it '#be - object' do
 		firstObject = "Ruby"
 		secondObject = "Ruby"
-		expect(firstObject).not_to equal(secondObject)
-		expect(firstObject).to equal(firstObject)    
+		expect(firstObject).not_to be(secondObject)
+		expect(firstObject).to be(firstObject)    
 	end
 
 	it '#eql - value' do
